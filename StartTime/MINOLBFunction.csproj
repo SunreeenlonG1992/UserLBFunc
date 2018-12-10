@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,6 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BMWRobZone82_13.cs" />
+    <Compile Include="BMWRobZone82.cs" />
     <Compile Include="ByteToBit14.cs" />
     <Compile Include="ByteToBit13.cs" />
     <Compile Include="DestroyAppearanceBySignal14.cs" />
