@@ -9,7 +9,7 @@ using Tecnomatix.Engineering.PrivateImplementationDetails;
 
 namespace UserDefinedFunction
 {
-    [TxPlcLogicBehaviorFunctionAttribute("ByteToBit")]
+    [TxPlcLogicBehaviorFunctionAttribute("ByteToBitCS")]
     [TxPlcLogicBehaviorFunctionDescription("Transfor the byte value to boolen")]
     public class ByteToBit13 : ITxPlcLogicBehaviorFunction
     {
