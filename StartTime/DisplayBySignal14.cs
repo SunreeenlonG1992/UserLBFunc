@@ -44,21 +44,10 @@ namespace MINOLBFunction
 
                 if (m_res != null)
                 {
-                //TxObjectList m_objectlist = TxApplication.ActiveDocument.PhysicalRoot.GetAllDescendants(new TxTypeFilter(typeof(TxDevice)));
-                //using (IEnumerator<ITxObject> enumerator = m_objectlist.GetEnumerator())
-                //{
-                //    while (enumerator.MoveNext())
-                //    {
-                //        ITxLocatableObject txdevice = (ITxLocatableObject)enumerator.Current;
-                //        if (txdevice is ITxLocatableObject)
-                //        {
-                //            TxVector translation = (m_res.AbsoluteLocation - txdevice.AbsoluteLocation).Translation;
-                //            double num = Math.Sqrt(translation.X * translation.X + translation.Y * translation.Y + translation.Z * translation.Z);
-                //            if (num <= (double)fThreshould)
-                //            {
-                TxComponent m_displayCom = m_res as TxComponent;
-                
-                 //TxDevice m_txDevice = m_res as TxDevice;
+
+                ITxDisplayableObject m_displayCom = m_res as ITxDisplayableObject;
+
+                //TxDevice m_txDevice = m_res as TxDevice;
                 if (m_displayCom != null)
                 {
 
